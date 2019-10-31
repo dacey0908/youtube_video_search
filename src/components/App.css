@@ -5,11 +5,5 @@
   position: fixed;
   left: 0;
   top: 0;
-  height: 100%;
   display: flex;
-}
-
-.app-row {
-  margin-left: 0;
-  margin-right: 0;
 }
