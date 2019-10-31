@@ -4,6 +4,7 @@ import SearchBar from "./SearchBar";
 import VideoList from "./VideoList";
 import VideoDetail from "./VideoDetail";
 import youtube from "../APIS/YouTube";
+import "./App.css";
 
 const App = () => {
   const [videos, setVideos] = useState([]);
@@ -28,15 +29,17 @@ const App = () => {
   };
 
   return (
-    <div className="ui container">
-      <SearchBar onFormSubmit={onTermSubmit} />
-      <div className="ui grid">
-        <div className="ui row">
-          <div className="eleven wide column">
-            <VideoDetail video={selectedVideo} />
-          </div>
-          <div className="five wide column">
-            <VideoList onVideoSelect={onVideoSelect} videos={videos} />
+    <div className="app">
+      <div className="  ui container">
+        <SearchBar onFormSubmit={onTermSubmit} />
+        <div className="ui grid">
+          <div className="ui row">
+            <div className="eleven wide column">
+              <VideoDetail video={selectedVideo} />
+            </div>
+            <div className="five wide column">
+              <VideoList onVideoSelect={onVideoSelect} videos={videos} />
+            </div>
           </div>
         </div>
       </div>
