@@ -10,7 +10,8 @@
   list-style-type: none;
   margin: 0;
   padding-bottom: 6px;
-  border-top: none;
+  padding-top: 6px;
+  border-bottom: 1px solid rgba(34, 36, 38, 0.15);
 }
 
 .video-item img {
@@ -22,7 +23,7 @@
   box-sizing: border-box;
   padding-left: 7px;
   width: auto;
-  font-size: 14px;
+  font-size: 12px;
   font-weight: 700;
   line-height: 16px;
   text-size-adjust: 100%;
