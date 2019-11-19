@@ -10,7 +10,6 @@ const App = () => {
   const [selectedVideo, setSelectedVideo] = useState(null);
 
   const onTermSubmit = async term => {
-    console.log(term);
     const response = await youtube.get("/search", {
       params: {
         q: term
