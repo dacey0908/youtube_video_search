@@ -1,5 +1,7 @@
 import React, { useState } from "react";
 
+import "./SearchBar.css";
+
 const SearchBar = props => {
   const [searchTerm, setSearchTerm] = useState("");
 
@@ -13,12 +15,15 @@ const SearchBar = props => {
   };
 
   return (
-    <div className="search-bar ui segment">
-      <form onSubmit={e => onFormSubmit(e)} className="ui form">
-        <div className="field">
-          <label>Video Search</label>
-          <input type="text" value={searchTerm} onChange={onInputChange} />
-        </div>
+    <div className="search-bar">
+      <form onSubmit={e => onFormSubmit(e)}>
+        <input
+          className="search-bar__input"
+          placeholder="Search"
+          type="text"
+          value={searchTerm}
+          onChange={onInputChange}
+        />
       </form>
     </div>
   );

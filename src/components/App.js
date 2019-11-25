@@ -31,7 +31,7 @@ const App = () => {
     <div className="ui container">
       <SearchBar onFormSubmit={onTermSubmit} />
       <div className="ui grid">
-        <div className="ui row">
+        <div className="app-row ui row">
           <div className="eleven wide column">
             <VideoDetail video={selectedVideo} />
           </div>
