@@ -8,7 +8,7 @@ I had just began learning how to use React Hooks. My first improvment was refact
 
 This app allows the user to search for videos. The user will recieve five videos from YouTube's API for each query they enter.
 
-<img width="1437" alt="Screen Shot 2019-10-05 at 7 15 42 PM" src="https://user-images.githubusercontent.com/54158919/69558309-f9842a00-0f75-11ea-8e67-d5fc83e7ea37.png">
+<img width="1437" alt="Screen Shot 2019-10-05 at 7 15 42 PM" src="https://user-images.githubusercontent.com/54158919/69559401-e2463c00-0f77-11ea-910b-1db6581cbd2b.png">
 
 ## Setup Instructions
 
