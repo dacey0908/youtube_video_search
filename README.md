@@ -1,13 +1,20 @@
 # YouTube Video Search App
 
+### Purpose
+
 This application is based off of Stephen Grider's React Tutorial. This app allows the user to search for videos. The user will receive five videos from YouTube's API for each query they enter.
 
 I found the tutorial very informative, but as my understanding for development began to grow, I decided to challenge myself further and make it my own.
 
+### Development Focus
+
 - Generated an access token through the Google Developer Console to make authenticated requests to a third-party API
-- Migrated the initial tutorial code from class-based components to `hooks`
+- Migrated the initial tutorial code from class-based components to hooks
+  - focusing on `useState` and `useEffect`
 - Refactored the initial tutorial code from semantic ui classes to custom `CSS` rules
 - Used `axios` in combination with my access token to fetch video results based on a query
+
+### Screenshots
 
 <img src="https://user-images.githubusercontent.com/54158919/69559401-e2463c00-0f77-11ea-910b-1db6581cbd2b.png">
 
