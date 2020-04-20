@@ -1,15 +1,15 @@
 {
   "files": {
-    "main.css": "/youtube-video-search/static/css/main.896066b6.chunk.css",
-    "main.js": "/youtube-video-search/static/js/main.07043588.chunk.js",
-    "main.js.map": "/youtube-video-search/static/js/main.07043588.chunk.js.map",
+    "main.css": "/youtube-video-search/static/css/main.4b70a477.chunk.css",
+    "main.js": "/youtube-video-search/static/js/main.f35258a1.chunk.js",
+    "main.js.map": "/youtube-video-search/static/js/main.f35258a1.chunk.js.map",
     "runtime~main.js": "/youtube-video-search/static/js/runtime~main.23eee4dc.js",
     "runtime~main.js.map": "/youtube-video-search/static/js/runtime~main.23eee4dc.js.map",
-    "static/js/2.d4565ff5.chunk.js": "/youtube-video-search/static/js/2.d4565ff5.chunk.js",
-    "static/js/2.d4565ff5.chunk.js.map": "/youtube-video-search/static/js/2.d4565ff5.chunk.js.map",
+    "static/js/2.e63897eb.chunk.js": "/youtube-video-search/static/js/2.e63897eb.chunk.js",
+    "static/js/2.e63897eb.chunk.js.map": "/youtube-video-search/static/js/2.e63897eb.chunk.js.map",
     "index.html": "/youtube-video-search/index.html",
-    "precache-manifest.e49f86799608414e03b6f828a90a7f6b.js": "/youtube-video-search/precache-manifest.e49f86799608414e03b6f828a90a7f6b.js",
+    "precache-manifest.62434a5003dbb04968b598420ef5b1ee.js": "/youtube-video-search/precache-manifest.62434a5003dbb04968b598420ef5b1ee.js",
     "service-worker.js": "/youtube-video-search/service-worker.js",
-    "static/css/main.896066b6.chunk.css.map": "/youtube-video-search/static/css/main.896066b6.chunk.css.map"
+    "static/css/main.4b70a477.chunk.css.map": "/youtube-video-search/static/css/main.4b70a477.chunk.css.map"
   }
 }
