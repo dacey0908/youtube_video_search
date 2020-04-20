@@ -5,7 +5,7 @@ import "./githubLink.css";
 const GithubLink = () => (
   <a
     className="gh-link"
-    href="https://github.com/daceynolan/munchkin-score-keeper"
+    href="https://github.com/daceynolan/youtube-video-search"
     aria-label="View source on Github"
   >
     <svg
