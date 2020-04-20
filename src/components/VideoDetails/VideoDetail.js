@@ -1,6 +1,6 @@
 import React from "react";
 
-import "./VideoDetails.css";
+import "./videoDetails.css";
 
 const VideoDetail = ({ video }) => {
   if (!video) {

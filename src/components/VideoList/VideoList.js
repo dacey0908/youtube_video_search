@@ -1,11 +1,11 @@
 import React from "react";
 
-import VideoItem from "./VideoItem";
+import VideoItem from "../VideoItem";
 
 const VideoList = ({ videos, onVideoSelect }) => {
   //we passed in videos via props
   //map over the videos array to return a new array and save to renderList
-  const renderedList = videos.map(video => {
+  const renderedList = videos.map((video) => {
     return (
       <VideoItem
         key={video.id.videoId}

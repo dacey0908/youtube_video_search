@@ -1,22 +1,22 @@
 import React, { useState } from "react";
 
-import "./SearchBar.css";
+import "./searchBar.css";
 
-const SearchBar = props => {
+const SearchBar = (props) => {
   const [searchTerm, setSearchTerm] = useState("");
 
-  const onInputChange = event => {
+  const onInputChange = (event) => {
     setSearchTerm(event.target.value);
   };
 
-  const onFormSubmit = event => {
+  const onFormSubmit = (event) => {
     event.preventDefault();
     props.onFormSubmit(searchTerm);
   };
 
   return (
     <div className="search-bar">
-      <form onSubmit={e => onFormSubmit(e)}>
+      <form onSubmit={(e) => onFormSubmit(e)}>
         <input
           className="search-bar__input"
           placeholder="Search"
